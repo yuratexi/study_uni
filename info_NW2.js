@@ -169,9 +169,7 @@ function main() {
     let message = `${q}<br><br>`
     var sampleArea = document.getElementById("console");
     sampleArea.innerHTML = message;
-    if (!navigator.userAgent.match(/iPhone|Android.+Mobile/)) {
-        document.getElementById("input-message1").focus();
-    }
+    document.getElementById("input-message1").focus();
     return bun;
 }
 
